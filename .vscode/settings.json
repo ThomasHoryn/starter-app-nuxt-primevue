@@ -36,5 +36,23 @@
   },
   "github.copilot.advanced": {
     "debug.overrideEngine": "gpt-4"
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.editor.enableCodeActions": true,
+  "github.copilot.chat.localeOverride": "en",
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
   }
 }
