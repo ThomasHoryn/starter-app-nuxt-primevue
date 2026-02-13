@@ -77,10 +77,11 @@ python3 generate_prompt_universal.py
 # Zadaj pytanie → Skopiuj wygenerowany prompt → Wklej do Copilot Chat
 ```
 
-📖 **Pełny przewodnik:** [RAG/USAGE.md](RAG/USAGE.md)  
+📖 **Pełny przewodnik:** [RAG/USAGE.md](RAG/USAGE.md)
 💡 **Przykładowe pytania:** [RAG/EXAMPLE_QUESTIONS.md](RAG/EXAMPLE_QUESTIONS.md)
 
 ### Jak to działa?
+
 1. Zadajesz pytanie (np. "Jak zrobić DataTable w PrimeVue?")
 2. Skrypt przeszukuje bazę wektorową i znajduje 7 najbardziej relevantnych fragmentów dokumentacji
 3. Generuje gotowy prompt z kontekstem i regułami anty-halucynacyjnymi
